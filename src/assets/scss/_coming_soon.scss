@@ -1,0 +1,43 @@
+html {
+  background: url(../img/bg.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  background: transparent !important;
+}
+.coming-soon {
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+  padding-top: 24%;
+  height: 100vh;
+  .podii-orange {
+    color: #E66F37;
+    // font-size: 1.2em;
+  }
+  .podii-blue {
+    color: #147272;
+  }
+  .center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  html{
+    background: url(../img/mobile_bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
