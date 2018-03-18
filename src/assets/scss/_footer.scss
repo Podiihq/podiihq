@@ -2,11 +2,8 @@ $footer-bg: #2c3840;
 
 .footer {
     background: $footer-bg;
-    padding: 2rem 0 0;
+    padding: 2rem 0 2rem;
     color: lighten($footer-bg, 40%);
-}
-.footer-block {
-    margin-bottom: 20px;         
 }
 .footer-name {
     color: $white;
@@ -17,6 +14,21 @@ $footer-bg: #2c3840;
     color: $white;
     margin-bottom: 1rem;
     font-size: 1.25rem;
+}
+.footer-block {
+    display: flex;
+
+    .fi {
+        font-size: 2rem;
+        color: darken($footer-bg, 20%);
+        }
+
+    p {
+        margin-left: 1rem;
+        line-height: 1.125rem;
+        padding-top: 10px;
+        }
+
 }
 .footer-bottom {
     background: darken($footer-bg, 20%);
