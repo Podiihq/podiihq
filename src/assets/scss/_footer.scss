@@ -1,0 +1,7 @@
+$footer-bg: #2c3840;
+
+.footer {
+    background: $footer-bg;
+    padding: 2rem 0 0;
+    color: lighten($footer-bg, 40%);
+}
