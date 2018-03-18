@@ -5,3 +5,12 @@ $footer-bg: #2c3840;
     padding: 2rem 0 0;
     color: lighten($footer-bg, 40%);
 }
+.footer-block {
+    margin-bottom: 20px;         
+}
+.footer-name {
+    color: $white;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
