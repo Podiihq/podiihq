@@ -1,0 +1,60 @@
+.intro{
+  background: url(../img/bg.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+  padding-top: 24%;
+  height: 100vh;
+}
+.what-we-do{
+  text-align: center;
+}
+.info {
+  background: url(../img/bg.jpeg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  height: 300px;
+  position: relative;
+  background-attachment: fixed;
+  color:yellow;
+  text-align: center;
+  p {
+    padding-top: 100px;
+    font-size: 30px;
+  }
+}
+.services {
+  background-color: #fff;
+  margin: 30px;
+  text-align: center;
+}
+.services-item {
+  margin-bottom: 10px;
+}
+.services-item img {
+  margin-bottom: 10px;
+}
+.services-item h5 {
+  color: #497285;
+}
+.media-content{
+  background: url(../img/bg.jpeg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  height: 300px;
+  position: relative;
+  background-attachment: fixed;
+  color:yellow;
+  text-align: center;
+}
+.media-item{
+  padding-top: 20px;
+}
+.podii-charities{
+  height: 300px;
+  background-color: #fff;
+  margin: 50px;
+  text-align: center;
+}
