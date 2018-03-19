@@ -1,5 +1,4 @@
 $footer-bg: #2c3840;
-
 .footer {
     background: $footer-bg;
     padding: 2rem 0 2rem;
@@ -17,30 +16,25 @@ $footer-bg: #2c3840;
 }
 .footer-block {
     display: flex;
-
     .fi {
         font-size: 2rem;
         color: darken($footer-bg, 20%);
-        }
-
+    }
     p {
         margin-left: 1rem;
         line-height: 1.125rem;
         padding-top: 10px;
-        }
-
+    }
 }
 .footer-bottom {
     background: darken($footer-bg, 20%);
     padding: 1rem 0;
-
     p {
         color: lighten($footer-bg, 40%);
         text-align: center;
         margin-bottom: 0;
     }
 }
-
 .social-media {
     padding-top: 20px;
 }
@@ -49,12 +43,10 @@ $footer-bg: #2c3840;
     margin-right: 10px;
     font-size: 50px;
 }
-
 @media screen and (max-width: 63.9375em) {
     .footer {
         padding: 20px 20px;
     }
-
     .circle-icon {
         margin-right: 5px;
         font-size: 30px;
