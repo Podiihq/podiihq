@@ -7,24 +7,24 @@ $footer-bg: #2c3840;
 .footer-name {
     color: $white;
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 2em;
 }
 .footer-title {
     color: $white;
     margin-bottom: 1rem;
-    font-size: 1.25rem;
+    font-size: 1.25em;
 }
 .footer-block {
     display: flex;
     .fi {
-        font-size: 2rem;
+        font-size: 2em;
         color: darken($footer-bg, 20%);
-    }
+        }
     p {
         margin-left: 1rem;
         line-height: 1.125rem;
         padding-top: 10px;
-    }
+        }
 }
 .footer-bottom {
     background: darken($footer-bg, 20%);
@@ -41,7 +41,7 @@ $footer-bg: #2c3840;
 .circle-icon {
     padding: 20px;
     margin-right: 10px;
-    font-size: 50px;
+    font-size: 2em;
 }
 @media screen and (max-width: 63.9375em) {
     .footer {
@@ -49,7 +49,6 @@ $footer-bg: #2c3840;
     }
     .circle-icon {
         margin-right: 5px;
-        font-size: 30px;
     }
     .social-media, .footer-title {
         padding-top: 10px;
