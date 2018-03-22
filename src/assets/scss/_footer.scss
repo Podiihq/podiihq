@@ -1,11 +1,11 @@
 $footer-bg: #292929;
 $title-color: #ff5e0e;
-$white-color: #fff;
+$text-color: #fff;
 .footer {
     background: darken($footer-bg, 10%);
     padding: 2rem 0 2rem;
     // color: lighten($footer-bg, 40%);
-    color: $white-color;
+    color: $text-color;
 }
 .footer-name {
     color: $title-color;
@@ -33,7 +33,7 @@ $white-color: #fff;
     background: darken($footer-bg, 70%);
     padding: 1rem 0;
     p {
-        color: $white-color;
+        color: $text-color;
         text-align: center;
         margin-bottom: 0;
     }
