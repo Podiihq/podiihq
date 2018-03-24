@@ -1,16 +1,19 @@
-$footer-bg: #2c3840;
+$footer-bg: #292929;
+$title-color: #ff5e0e;
+$text-color: #fff;
 .footer {
-    background: $footer-bg;
+    background: darken($footer-bg, 10%);
     padding: 2rem 0 2rem;
-    color: lighten($footer-bg, 40%);
+    // color: lighten($footer-bg, 40%);
+    color: $text-color;
 }
 .footer-name {
-    color: $white;
+    color: $title-color;
     margin-bottom: 1rem;
     font-size: 2em;
 }
 .footer-title {
-    color: $white;
+    color: $title-color;
     margin-bottom: 1rem;
     font-size: 1.25em;
 }
@@ -18,7 +21,7 @@ $footer-bg: #2c3840;
     display: flex;
     .fi {
         font-size: 2em;
-        color: darken($footer-bg, 20%);
+        color: lighten($footer-bg, 10%);
         }
     p {
         margin-left: 1rem;
@@ -27,10 +30,10 @@ $footer-bg: #2c3840;
         }
 }
 .footer-bottom {
-    background: darken($footer-bg, 20%);
+    background: darken($footer-bg, 70%);
     padding: 1rem 0;
     p {
-        color: lighten($footer-bg, 40%);
+        color: $text-color;
         text-align: center;
         margin-bottom: 0;
     }
@@ -41,7 +44,7 @@ $footer-bg: #2c3840;
 .circle-icon {
     padding: 20px;
     margin-right: 10px;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 @media screen and (max-width: 63.9375em) {
     .footer {
