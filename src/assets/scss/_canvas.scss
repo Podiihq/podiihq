@@ -1,0 +1,9 @@
+$title-bg: #292929;
+$text-color: #fff;
+
+.title-bar {
+    background: darken($title-bg, 10%);
+    color: $text-color;
+    padding: 5px 0 5px;
+}
+
