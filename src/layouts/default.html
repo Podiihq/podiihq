@@ -20,10 +20,12 @@
           </ul>
       </div>
 
-    {{> topbar}}
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
-    {{> footer}}
+      <div class="off-canvas-content" data-off-canvas-content>
+          {{> topbar}}
+          {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+          {{> body}}
+          {{> footer}}
+      </div>
 
     <script src="{{root}}assets/js/app.js"></script>
   </body>
