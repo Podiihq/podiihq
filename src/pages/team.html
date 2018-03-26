@@ -1,0 +1,16 @@
+<div id="team">
+  {{#each team}}
+  <div class="callout secondary">
+    <img alt="" src="{{root}}assets/img/team/{{this.image}}.jpg" class="thumbnail team-member-image"/>
+    <ul class="menu simple">
+      <li> <a href="https://twitter.com/{{this.twitter}}" target="blank"> <i class="fa fi-social-twitter " aria-hidden="true"></i> </a> </li>
+      <li> <a href="https://medium.com/{{this.medium}}" target="blank"><i class="fa fi-social-medium " aria-hidden="true"></i></a> </li>
+      <li> <a href="https://github.com/{{this.github}}" target="blank"><i class="fa fi-social-github " aria-hidden="true"></i></a> </li>
+    </ul>
+    <img alt="" src="https://www.codewars.com/users/{{this.codewars}}/badges/micro"/>
+    <p>
+      {{this.description}}
+    </p>
+  </div>
+  {{/each}}
+</div>
