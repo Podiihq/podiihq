@@ -98,6 +98,7 @@ $global-prototype-breakpoints: false;
 $global-button-cursor: auto;
 $global-color-pick-contrast-tolerance: 0;
 $print-transparent-backgrounds: true;
+$canvas-background: #1a191e;
 
 @include add-foundation-colors;
 

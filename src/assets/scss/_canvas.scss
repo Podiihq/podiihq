@@ -1,5 +1,6 @@
 $title-bg: #292929;
-$text-color: #fff;
+// $text-color: #fff;
+// $title-color: #ff5e0e;
 
 .title-bar {
     background: darken($title-bg, 10%);
@@ -7,9 +8,8 @@ $text-color: #fff;
     padding: 5px 0 5px;
 }
 #offCanvas {
-    background: darken($title-bg, 10%);
-    color: $text-color;
-    a {
+    background: $canvas-background;
+    a, .close-button {
         color: $text-color;
     }
 }
