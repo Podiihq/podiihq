@@ -1,14 +1,17 @@
   .team{
     background: #970A0A;
+    text-align: center;
   
-
   .circular{
     border-radius: 100px;
     padding: 10px;
   }
-
   .courier{
     font-family: "Courier New", Courier, monospace;
     font-color: #F3E5E5;
   }
+  .menu.simple {
+    justify-content: center;
+  }
+
   }
