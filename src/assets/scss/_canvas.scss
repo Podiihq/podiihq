@@ -1,15 +1,11 @@
-$title-bg: #292929;
-// $text-color: #fff;
-// $title-color: #ff5e0e;
-
 .title-bar {
-    background: darken($title-bg, 10%);
-    color: $text-color;
+    background: darken($dark-cyan, 10%);
+    color: $white;
     padding: 5px 0 5px;
 }
 #offCanvas {
     background: $canvas-background;
     a, .close-button {
-        color: $text-color;
+        color: $white;
     }
 }
