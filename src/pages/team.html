@@ -1,6 +1,8 @@
 <div class="team">
 <h1 class="courier" align="center">PodiiHQ Team</h1>
+<div class="grid-x">
 {{#each team}}
+<div class="cell medium-4">
   <div class="callout secondary">
     <img class="circular" src="{{root}}assets/img/team/{{this.image}}"/>
     <p>~{{this.name}}~</p>
@@ -11,6 +13,7 @@
     </ul>
     <img alt="" src="https://www.codewars.com/users/{{this.codewars}}/badges/micro"/>
     <p>{{this.desc}}</p>
+  </div>
   </div>
   {{/each}}
 </div>

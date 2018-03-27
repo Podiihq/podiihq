@@ -1,7 +1,7 @@
 getty:
   image: "getty.png"
   twitter: "gettyorawo"
-  medium: "gettygertie"
+  medium: "@gettygertie"
   github: "gettyorawo"
   codewars: "GettyGertie"
   desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
@@ -12,9 +12,9 @@ getty:
 sigu:
   image: "sigu.png"
   twitter: "sigumagwa"
-  medium: "sigumagwa"
+  medium: "@sigumagwa"
   github: "gettyorawo"
-  codewars: "sigumagwa"
+  codewars: "sigu"
   desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
           cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim 
           neque, volutpat ac tincidunt vitae, semper?"
@@ -23,7 +23,7 @@ sigu:
 mussa:
   image: "mussa.png"
   twitter: "AmokeMsa"
-  medium: "musaomondi"
+  medium: "@musaomondi7437"
   github: "musaomondi"
   codewars: "Amoke"
   desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
@@ -34,7 +34,7 @@ mussa:
 lucy:
   image: "lucy.png"
   twitter: "lue_mise"
-  medium: "lucymuhonja"
+  medium: "@lucymuhonja"
   github: "Lmise"
   codewars: "Lmise"
   desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
@@ -45,7 +45,7 @@ lucy:
 kevin:
   image: "kevin.png"
   twitter: "iamkevyne"
-  medium: "kevinlinkin"
+  medium: "@kevinlinkin"
   github: "champagnepappi"
   codewars: "champagnepappi"
   desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
