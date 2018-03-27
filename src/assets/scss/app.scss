@@ -5,9 +5,12 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import 'topbar';
 @import 'coming_soon';
 @import 'footer';
+@import 'canvas';
 @import 'team';
+
 
 @include foundation-global-styles;
 // @include foundation-grid;

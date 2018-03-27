@@ -98,6 +98,10 @@ $global-prototype-breakpoints: false;
 $global-button-cursor: auto;
 $global-color-pick-contrast-tolerance: 0;
 $print-transparent-backgrounds: true;
+$canvas-background: #1a191e;
+$podii-orange: #ff5e0e; 
+$dark-cyan: #292929;
+$footer-background: darken($dark-cyan, 10%);
 
 @include add-foundation-colors;
 
@@ -846,7 +850,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-background: $footer-background;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
