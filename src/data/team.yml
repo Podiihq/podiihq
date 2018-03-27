@@ -4,8 +4,8 @@ getty:
   medium: "@gettygertie"
   github: "gettyorawo"
   codewars: "GettyGertie"
-  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
-          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim 
+  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus
+          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim
           neque, volutpat ac tincidunt vitae, semper?"
   name: "Getty Orawo"
 
@@ -15,10 +15,10 @@ sigu:
   medium: "@sigumagwa"
   github: "gettyorawo"
   codewars: "sigu"
-  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
-          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim 
+  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus
+          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim
           neque, volutpat ac tincidunt vitae, semper?"
-  name: "Sigu Peter"
+  name: "Sigu Magwa"
 
 mussa:
   image: "mussa.png"
@@ -26,8 +26,8 @@ mussa:
   medium: "@musaomondi7437"
   github: "musaomondi"
   codewars: "Amoke"
-  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
-          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim 
+  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus
+          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim
           neque, volutpat ac tincidunt vitae, semper?"
   name: "Mussa Amoke"
 
@@ -37,8 +37,8 @@ lucy:
   medium: "@lucymuhonja"
   github: "Lmise"
   codewars: "Lmise"
-  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
-          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim 
+  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus
+          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim
           neque, volutpat ac tincidunt vitae, semper?"
   name: "Lucy Mise"
 
@@ -48,7 +48,7 @@ kevin:
   medium: "@kevinlinkin"
   github: "champagnepappi"
   codewars: "champagnepappi"
-  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
-          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim 
+  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus
+          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim
           neque, volutpat ac tincidunt vitae, semper?"
   name: "Kevin Ochieng"
