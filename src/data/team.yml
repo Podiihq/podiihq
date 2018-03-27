@@ -1,0 +1,10 @@
+getty:
+  image: "getty.png"
+  twitter: "gettyorawo"
+  medium: "gettygertie"
+  github: "gettyorawo"
+  codewars: "GettyGertie"
+  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
+          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim 
+          neque, volutpat ac tincidunt vitae, semper?"
+  name: "Getty Orawo"

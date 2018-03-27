@@ -1,15 +1,17 @@
 <div class="team">
+{{#each team}}
   <div class="callout secondary">
     <h1 class="courier" align="center">PodiiHQ Team</h1>
-    <img alt="" src="http://via.placeholder.com/150x150" class="thumbnail circular"/>
+    <img class="circular" src="{{root}}assets/img/team/{{this.image}}"/>
+    <p>~{{this.name}}~</p>
     <ul class="menu simple">
-      <li> <i class="fa fi-social-twitter " aria-hidden="true"></i> </li>
-      <li> <i class="fa fi-social-medium " aria-hidden="true"></i> </li>
-      <li> <i class="fa fi-social-github " aria-hidden="true"></i> </li>
+      <a href="https://twitter.com/{{this.twitter}}"> <li> <i class="fa fi-social-twitter " aria-hidden="true"></i> </li></a>
+      <a href="https://medium.com/{{this.medium}}"><li> <i class="fa fi-social-medium " aria-hidden="true"></i> </li></a>
+      <a href="https://github.com/{{this.github}}"><li> <i class="fa fi-social-github " aria-hidden="true"></i> </li></a>
     </ul>
-    <img alt="" src="https://www.codewars.com/users/GettyGertie/badges/micro"/>
-    <p>This is some text that doesn't make sense but clearly i have to put it here
-    Oh no my typing skills suck bad. But not as ba as others but you get the  point right?</p>
+    <img alt="" src="https://www.codewars.com/users/{{this.codewars}}/badges/micro"/>
+    <p>{{this.desc}}</p>
   </div>
+  {{/each}}
 </div>
   
