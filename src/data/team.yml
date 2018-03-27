@@ -8,3 +8,47 @@ getty:
           cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim 
           neque, volutpat ac tincidunt vitae, semper?"
   name: "Getty Orawo"
+
+sigu:
+  image: "sigu.png"
+  twitter: "sigumagwa"
+  medium: "sigumagwa"
+  github: "gettyorawo"
+  codewars: "sigumagwa"
+  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
+          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim 
+          neque, volutpat ac tincidunt vitae, semper?"
+  name: "Sigu Peter"
+
+mussa:
+  image: "mussa.png"
+  twitter: "AmokeMsa"
+  medium: "musaomondi"
+  github: "musaomondi"
+  codewars: "Amoke"
+  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
+          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim 
+          neque, volutpat ac tincidunt vitae, semper?"
+  name: "Mussa Amoke"
+
+lucy:
+  image: "lucy.png"
+  twitter: "lue_mise"
+  medium: "lucymuhonja"
+  github: "Lmise"
+  codewars: "Lmise"
+  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
+          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim 
+          neque, volutpat ac tincidunt vitae, semper?"
+  name: "Lucy Mise"
+
+kevin:
+  image: "kevin.png"
+  twitter: "iamkevyne"
+  medium: "kevinlinkin"
+  github: "champagnepappi"
+  codewars: "champagnepappi"
+  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus 
+          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim 
+          neque, volutpat ac tincidunt vitae, semper?"
+  name: "Kevin Ochieng"
