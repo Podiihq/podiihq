@@ -1,10 +1,6 @@
-.what-we-do{
-  margin: 2em;
+.who-we-are{
+  padding: 3em;
   text-align: center;
-}
-.orbit-image{
-  width: 550px;
-  height: 400px;
 }
 .info {
   background: url(../img/bg.jpeg) no-repeat center center fixed;
@@ -36,15 +32,15 @@
   background-size: 100% 100%;
   position: relative;
   background-attachment: fixed;
-  color:orange;
+  color:white;
   text-align: center;
 }
 .media-item{
-  height: 40vh;
-  padding-top: 2em;
+  height: 30vh;
+  // padding-top: 2em;
 
   i {
-    font-size: 4em;
+    font-size: 3em;
   }
 }
 .intro {
@@ -62,9 +58,9 @@
   z-index: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-animation: imageAnimation 24s linear infinite 0s;
-  -moz-animation: imageAnimation 24s linear infinite 0s;
-  animation: imageAnimation 24s linear infinite 0s;
+  -webkit-animation: imageAnimation 12s linear infinite 0s;
+  -moz-animation: imageAnimation 12s linear infinite 0s;
+  animation: imageAnimation 12s linear infinite 0s;
 }
 .intro li h3 {
   position: absolute;
@@ -76,8 +72,8 @@
   font-size: 4.0625em;
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
-  -webkit-animation: titleAnimation 24s linear infinite 0s;
-  -moz-animation: titleAnimation 24s linear infinite 0s;
-  animation: titleAnimation 24s linear infinite 0s;
+  -webkit-animation: titleAnimation 12s linear infinite 0s;
+  -moz-animation: titleAnimation 12s linear infinite 0s;
+  animation: titleAnimation 12s linear infinite 0s;
 }
 
