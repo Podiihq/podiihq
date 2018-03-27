@@ -1,19 +1,17 @@
 .who-we-are{
-  padding: 3em;
+  padding: 1.5em;
   text-align: center;
 }
 .info {
   background: url(../img/bg.jpeg) no-repeat center center fixed;
   background-size: 100% 100%;
-  height: 20vh;
   position: relative;
   background-attachment: fixed;
   color:yellow;
   text-align: left;
   p {
-    padding-top: 3em;
-    margin-left: 2em;
-    // font-size: 1.5em;
+    padding: 2em;
+    font-size: 1.5em;
   }
 }
 .services {
@@ -34,11 +32,9 @@
   background-attachment: fixed;
   color:white;
   text-align: center;
+  padding: 2em;
 }
 .media-item{
-  height: 30vh;
-  // padding-top: 2em;
-
   i {
     font-size: 3em;
   }
@@ -65,7 +61,7 @@
 .intro li h3 {
   position: absolute;
   text-align: center;
-  bottom: 5em;
+  top: 2em;
   left: 0;
   right: 0;
   opacity: 0;
