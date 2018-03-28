@@ -1,20 +1,24 @@
 .team{
   background: #000;
   text-align: center;
-  i{
+
+  i {
     font-size: 2em;
   }
 
-  .circular{
+  .circular {
     border-radius: 100px;
     padding: 10px;
   }
-  .courier{
+  .courier {
     font-family: "Courier New", Courier, monospace;
     color: #D02C2C;
   }
-    .menu.simple {
+  .menu.simple {
     justify-content: center;
+  }
+  p {
+    margin-bottom: 0;
   }
 
 }
