@@ -1,3 +1,7 @@
 .top-bar a {
     color: white;
 }
+.top-bar a:hover {
+    color: white;
+    border-bottom: 1px solid $podii-orange;
+}
