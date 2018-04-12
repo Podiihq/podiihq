@@ -11,21 +11,24 @@
   text-align: center;
   padding: 2rem;
   background-color: #e6e6e6;
+  div div p.service-description {
+    margin-bottom: 1px;
+  }
   .service{
     padding-bottom: 2em;
     h2 {
       font-size: 1.5em;
     }
-  }
   h1 {
     padding-bottom: 0.2em;
+    }
   }
 }
 .media-content{
   text-align: center;
   padding: 2em;
 }
-.media-item{
+.media-item {
   i {
     font-size: 3em;
   }
