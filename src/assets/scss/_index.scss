@@ -11,7 +11,19 @@
       font-weight: 500;
   }
   p {
-      font-size: 1.2em;
+   font-size: 1.2em;
+      .creativity, .integrity, .collaboration {
+          font-weight: bold;
+      }
+  .creativity {
+      color: #008575;
+  }
+  .integrity {
+      color: $podii-orange;
+  }
+  .collaboration {
+      color: #695d46;
+  }
   }
 }
 }
