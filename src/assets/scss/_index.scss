@@ -8,7 +8,7 @@
   padding:  2rem ;
 }
 #services {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Slabo 29px', serif;
   text-align: center;
   padding: 2rem;
   background-color: #e6e6e6;
@@ -36,8 +36,14 @@
 }
 .quote{
   background-color: #e6e6e6;
-  p{
-    padding: 1.5em;
-    font-size: 1.5em;
+  padding: 2em;
+  p {
+   display: inline;
+   font-family: 'Philosopher', sans-serif;
+   padding: 0.4em 4em 4em 4em;
+   font-size: 1.5em;
+  }
+  i {
+    font-size: 5em;
   }
 }
