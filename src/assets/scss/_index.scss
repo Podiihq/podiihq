@@ -34,16 +34,26 @@
     font-size: 3em;
   }
 }
-.quote{
+.quote {
   background-color: #e6e6e6;
   padding: 2em;
   p {
    display: inline;
    font-family: 'Philosopher', sans-serif;
-   padding: 0.4em 4em 4em 4em;
+   padding: 0.4em 2em 4em 2em;
    font-size: 1.5em;
   }
   i {
     font-size: 5em;
+  }
+}
+@media screen and (max-width: 63.9375em) {
+    .quote {
+      p {
+        font-size: 1em;
+      }
+      i {
+        font-size: 2em;
+      }
   }
 }
