@@ -17,6 +17,7 @@
   }
   p {
    font-size: 1.2em;
+   margin-bottom: 1.7em;
       .creativity, .integrity, .collaboration {
           font-weight: bold;
       }
@@ -29,6 +30,13 @@
   .collaboration {
       color: $collaboration-color;
   }
+  }
+  .button {
+      border-radius: 3px;
+      font-size: 1em;
+      font-family: Ubuntu;
+      color: black;
+      background: yellow;
   }
 }
 }
@@ -47,6 +55,11 @@
   }
 
     }
+  .button {
+      font-weight: bold;
+      color: black;
+      background: yellow;
+  }
 
 }
 }
