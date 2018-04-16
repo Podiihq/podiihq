@@ -1,36 +1,36 @@
-#intro{
+#intro {
   height: 100vh;
   background-image: url(../img/bg.jpg);
   background-size: cover;
   margin-top:-4em;
 }
-#who-we-are{
+#who-we-are { 
   text-align: center;
   padding: 2rem 3rem ;
   a{
     background: $podii-blue;
   }
 }
-#services{
+#services {
   text-align: center;
   padding: 2rem;
   background-color: #e6e6e6;
-  .service{
+  .service {
     padding-bottom: 2em;
   }
   h1{
     padding-bottom: 1em
   }
 }
-.media-content{
+.media-content {
   padding: 0em;
 }
-.media-item{
+.media-item {
   i {
     font-size: 3em;
   }
 }
-.quote{
+.quote {
   background-color: #e6e6e6;
   p{
     padding: 1.5em;
