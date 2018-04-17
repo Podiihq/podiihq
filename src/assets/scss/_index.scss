@@ -11,27 +11,18 @@
   }
 }
 #services {
-<<<<<<< HEAD
-  font-family: 'Slabo 29px', serif;
-  text-align: center;
-  padding: 2rem;
-  background-color: #e6e6e6;
-  .service-description {
-    margin-bottom: 1px;
-  }
-  .service{
-=======
+  .service {
   text-align: center;
   padding: 2rem;
   background-color: #e6e6e6;
   .service {
->>>>>>> 6834eda2d1cfa8a9edaca6cc37bbbf7e74901e7b
     padding-bottom: 2em;
-    h2 {
+    h1 {
       font-size: 1.5em;
     }
-  h1 {
+  h2 {
     padding-bottom: 0.2em;
+    }
     }
   }
 }
@@ -56,3 +47,5 @@
     font-size: 5em;
   }
 }
+
+
