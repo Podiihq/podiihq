@@ -1,13 +1,17 @@
-#intro{
+#intro {
   height: 100vh;
   background-image: url(../img/bg.jpg);
   background-size: cover;
 }
-#who-we-are{
+#who-we-are { 
   text-align: center;
-  padding:  2rem ;
+  padding: 2rem 3rem ;
+  a {
+    background: $podii-blue;
+  }
 }
 #services {
+<<<<<<< HEAD
   font-family: 'Slabo 29px', serif;
   text-align: center;
   padding: 2rem;
@@ -16,6 +20,12 @@
     margin-bottom: 1px;
   }
   .service{
+=======
+  text-align: center;
+  padding: 2rem;
+  background-color: #e6e6e6;
+  .service {
+>>>>>>> 6834eda2d1cfa8a9edaca6cc37bbbf7e74901e7b
     padding-bottom: 2em;
     h2 {
       font-size: 1.5em;
@@ -25,16 +35,15 @@
     }
   }
 }
-.media-content{
-  text-align: center;
-  padding: 2em;
+.media-content {
+  padding: 0em;
 }
 .media-item {
   i {
     font-size: 3em;
   }
 }
-.quote{
+.quote {
   background-color: #e6e6e6;
   padding: 2em;
   p {
