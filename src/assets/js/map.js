@@ -26,11 +26,11 @@ function init() {
         ]
       },
       {
-        featureType: 'poi',
+        featureType: 'poi.business',
         elementType: 'all',
         stylers: [
           {
-            visibility: 'on'
+            visibility: 'simplified'
           }
         ]
       },
@@ -51,12 +51,12 @@ function init() {
         elementType: 'all',
         stylers: [
           {
-            visibility: 'on'
+            visibility: 'simplified'
           }
         ]
       },
       {
-      featureType: 'poi.place_of_time',
+      featureType: 'poi.place_of_worship',
               elementType: 'labels.text.fill',
               stylers: [
                 {
@@ -69,7 +69,7 @@ function init() {
         elementType: 'labels.icon',
         stylers: [
           {
-            visibility: 'on'
+            visibility: 'off'
           }
         ]
       },
@@ -78,7 +78,7 @@ function init() {
         elementType: 'all',
         stylers: [
           {
-            visibility: 'on'
+            visibility: 'off'
           }
         ]
       },
