@@ -34,7 +34,7 @@
   p {
     margin-left: 1rem;
     line-height: 1.125rem;
-    padding-top: 10px;
+    padding-top: 1rem;
   }
 }
 
@@ -50,7 +50,7 @@
 }
 
 .social-media {
-  padding-top: 20px;
+  padding-top: 2rem;
 
   .fa {
     padding-left: 0.5px;
@@ -62,14 +62,14 @@
 }
 
 .circle-icon {
-  padding: 20px;
-  margin-right: 10px;
+  padding: 2rem;
+  margin-right: 1rem;
   font-size: 2.5em;
 }
 
 @media screen and (max-width: 63.9375em) {
   .footer {
-    padding: 20px 20px;
+    padding: 2rem 2rem;
   }
 
   .circle-icon {
@@ -77,6 +77,6 @@
   }
 
   .social-media, .footer-title {
-    padding-top: 10px;
+    padding-top: 1rem;
   }
 }
