@@ -17,27 +17,15 @@ new technology and ways of doing things.We can turn your ideas into solution,tod
 	  <p class="service-description">We help brands who seek the full scope of a powerful digital presence. Podii in-house</p>
 	  <p>experts create web, social, and content experiences tailored to your needs in the modern technological era.</p>
     </div>
+    {{#each services}}
     <div class="cell medium-4">
       <div class="service">
-        <img src="{{root}}assets/img/web-app.png" alt="We build web applications" width="128">
-        <h2>Web Applications</h2>
-        <p>We build best website applications and this is our expertise. Websites are just static views on the web. Web applications on the other hand allows users to create accounts, get confidential data, store data and do a lot of cool stuff on the web.</p>
+          <img src="{{root}}assets/img/{{this.image}}" alt="{{this.alt}}" width="128">
+        <h2>{{this.service}}</h2>
+        <p>{{this.service-description}}</p>
       </div>
     </div>
-    <div class="cell medium-4">
-      <div class="service">
-        <img src="{{root}}assets/img/web-dev.png" alt="We build static websites" width="128">
-        <h2>Static Websites</h2>
-        <p>We design and develop static websites, where these are the sites where the content or rather data displayed, never changes and all that is displayed is same to all visitors of the site.</p>
-      </div>
-    </div>
-    <div class="cell medium-4">
-      <div class="service">
-        <img src="{{root}}assets/img/app-dev.png" alt="We build mobile applications" width="128">
-        <h2>Mobile Applications</h2>
-        <p>We build applications for mobile phones and tablets; Android, Apple/iOS, cross-platform, or responsive web. We’ll help you pick the right tech and launch a breakout mobile product.</p>
-      </div>
-    </div>
+    {{/each}}
   </div>
 </section>
 <section class="media-content">
