@@ -43,11 +43,45 @@
 }
 
 .quote {
-  background-color: #e6e6e6;
+  background-color: #008575;
+  padding: 4em;
+  h2 {
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 0 0 0.5em 0;
+    }
   p {
-   padding: 1.5em;
-   font-size: 1.5em;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.1em;
+    padding: 0 8em 0 0;
+    text-align: center;
+    color: white;
+  }
+  i {
+    padding: 0 2em 0 0;
+    font-size: 2.5em;
+    color: white;
   }
 }
 
+@media screen and (max-width: 63.9375em) {
+  .quote {
+    padding: 2em;
+    h2 {
+      font-size: 1.5em;
+    }
+    p {
+      display: flex;
+      font-size: 1em;
+    }
+    i {
+      font-size: 2em;
+    }
+    h2, p, i {
+      padding: 0;
+    }
+  }
+}
 
