@@ -30,7 +30,7 @@ function init() {
         elementType: 'all',
         stylers: [
           {
-            visibility: 'off'
+            visibility: 'on'
           }
         ]
       },
@@ -51,16 +51,25 @@ function init() {
         elementType: 'all',
         stylers: [
           {
-            visibility: 'simplified'
+            visibility: 'on'
           }
         ]
       },
       {
+      featureType: 'poi.place_of_time',
+              elementType: 'labels.text.fill',
+              stylers: [
+                {
+                  color: '#6b9a76'
+                }
+              ]
+            },
+            {
         featureType: 'road.arterial',
         elementType: 'labels.icon',
         stylers: [
           {
-            visibility: 'off'
+            visibility: 'on'
           }
         ]
       },
@@ -69,7 +78,7 @@ function init() {
         elementType: 'all',
         stylers: [
           {
-            visibility: 'off'
+            visibility: 'on'
           }
         ]
       },
@@ -93,6 +102,6 @@ function init() {
   var marker = new google.maps.Marker({
     position: new google.maps.LatLng(-0.1076263, 34.76850450000006),
     map: map,
-    title: 'Here is our offices'
+    title: 'Lutheran Church'
   });
 }
