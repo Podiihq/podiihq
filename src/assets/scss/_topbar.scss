@@ -1,5 +1,10 @@
 .top-bar {
   height: 50px;
+ .menu .active > a {
+    background: $topbar-background;
+    color: #fefefe;
+    border-bottom: 2px solid $podii-orange;
+  }
 }
 .top-bar a {
     color: white;
@@ -9,3 +14,4 @@
     color: white;
     border-bottom: 2px solid $podii-orange;
 }
+
