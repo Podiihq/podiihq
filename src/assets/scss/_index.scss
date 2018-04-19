@@ -11,14 +11,21 @@
   }
 }
 #services {
+  font-family: 'Slabo 29px', serif;
   text-align: center;
   padding: 2rem;
   background-color: #e6e6e6;
-  .service {
-    padding-bottom: 2em;
+  .service-description {
+    margin-bottom: 1px;
   }
-  h1{
-    padding-bottom: 1em
+  .service{
+    padding-bottom: 2em;
+    h2 {
+      font-size: 1.5em;
+    }
+  h1 {
+    padding-bottom: 0.2em;
+    }
   }
 }
 .media-content {
@@ -31,11 +38,28 @@
 }
 .quote {
   background-color: #e6e6e6;
-  p{
-    padding: 1.5em;
-    font-size: 1.5em;
+  padding: 2em;
+  p {
+   display: inline;
+   font-family: 'Philosopher', sans-serif;
+   padding: 0.4em 2em 4em 2em;
+   font-size: 1.5em;
+  }
+  i {
+    font-size: 5em;
   }
 }
-.map {
-  padding: 1rem 0;
+
+
+@media screen and (max-width: 63.9375em) {
+  .quote {
+    p {
+      font-size: 1em;
+    }
+    i {
+      font-size: 2em;
+    }
+  }
 }
+
+
