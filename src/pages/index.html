@@ -39,36 +39,17 @@ new technology and ways of doing things.We can turn your ideas into solution,tod
     {{/each}}
   </div>
 </section>
-<section class="media-content">
+<section class="progress-content hero">
   <div class="grid-x grid-margin-x">
-    <div class="cell medium-3">
-      <div class="media-item">
-        <i class="fi fi-trophy" aria-hidden="true"></i>
-        <h1>450</h1>
-        <h5>Mob Sessions</h5>
+  {{#each progress}}
+    <div class="cell medium-3 mobile-view">
+      <div class="progress-item">
+        <i class="{{this.icon}}" aria-hidden="true"></i>
+        <h1>{{this.progress}}</h1>
+        <h5>{{this.description}}</h5>
       </div>
     </div>
-    <div class="cell medium-3">
-      <div class="media-item">
-        <i class="fi fi-anchor" aria-hidden="true"></i>
-        <h1>450</h1>
-        <h5>Meetups</h5>
-      </div>
-    </div>
-    <div class="cell medium-3">
-      <div class="media-item">
-        <i class="fi fi-trophy" aria-hidden="true"></i>
-        <h1>450</h1>
-        <h5>Cups & coffee</h5>
-      </div>
-    </div>
-    <div class="cell medium-3">
-      <div class="media-item">
-        <i class="fi fi-torsos-all" aria-hidden="true"></i>
-        <h1>450</h1>
-        <h5>Hackerthons</h5>
-      </div>
-    </div>
+    {{/each}}
   </div>
 </section>
 <section class="quote">
