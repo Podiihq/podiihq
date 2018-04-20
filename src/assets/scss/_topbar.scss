@@ -1,7 +1,16 @@
-.top-bar a {
-    color: white;
-}
-.top-bar a:hover {
-    color: white;
-    border-bottom: 1px solid $podii-orange;
+.top-bar {
+  height: 3.2em;
+ .menu .active > a {
+   background: $topbar-background;
+   color: #fefefe;
+   border-bottom: 0.25em solid $podii-orange;
+  }
+ a {
+  color: white;
+  border-bottom: 0.25em solid transparent;
+  &:hover {
+   color: white;
+   border-bottom: 0.25em solid $podii-orange;
+  }
+ }
 }
