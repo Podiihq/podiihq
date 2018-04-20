@@ -1,23 +1,22 @@
 meet-ups:
   progress: "450"
-  description: "Cups of Coffee"
-  icon: "fi fi-trophy"
+  description: "Meet-Ups"
+  icon: "fi fi-torsos-all"
 
+cups-of-coffee:
+  progress: "450"
+  description: "Cups of coffee"
+  icon: "fi fi-trophy"
 
 mob-sessions:
   progress: "450"
   description: "Mob Sessions"
   icon: "fi fi-torsos-all"
-
-cups-of-coffee:
-  progress: "450"
-  description: "Cups of Coffee"
-  icon: "fi fi-anchor"
   
 hackathons:
   progress: "450"
-  description: "Cups of Coffee"
-  icon: "fi fi-trophy"
+  description: "Hackathons"
+  icon: "fi fi-anchor"
 
 
 
