@@ -108,11 +108,17 @@
 
 .hero {
   h1 {
-    padding: 2rem 5rem 0 5rem;
+    padding: 0;
   }
 
   p {
     padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .mobile-view {
+    max-width: 40%;
   }
 }
 
