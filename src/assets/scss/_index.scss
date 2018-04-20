@@ -75,7 +75,7 @@
 }
 }
 }
-#who-we-are { 
+#who-we-are {
   text-align: center;
   padding: 2rem 3rem ;
   a {
@@ -136,6 +136,9 @@
 .quote {
   background-color: #008575;
   padding: 4em;
+  .quote-definition {
+    font-size: 2rem;
+  }
   h2 {
     font-family: 'Philosopher', sans-serif;
     color: white;

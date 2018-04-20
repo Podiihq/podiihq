@@ -1,12 +1,32 @@
-{{!-- This is the base layout for your project, and will be used on every page. --}}
-
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PodiiHQ</title>
+    <title>{{pagetitle}}</title>
+    <!-- Search Engine -->
+    <meta name="description" content="{{metatags.description}}"
+    <meta name="image" content="https://podiihq.com/logo.png">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Podii">
+    <meta itemprop="description" content="{{metatags.description}}">
+    <meta itemprop="image" content="https://podiihq.com/logo.png">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Podii">
+    <meta name="twitter:description" content="{{metatags.description}}">
+    <meta name="twitter:site" content="@podiihq">
+    <meta name="twitter:image:src" content="https://podiihq.com/logo.png">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Podii">
+    <meta name="og:description" content="{{metatags.description}}">
+    <meta name="og:image" content="https://podiihq.com/logo.png">
+    <meta name="og:url" content="https://podiihq.com">
+    <meta name="og:site_name" content="Podii">
+    <meta name="og:type" content="website">
+    <link rel="icon" type="image/x-icon" href="{{root}}assets/img/logo.png">
+
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
   <body>
