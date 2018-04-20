@@ -1,0 +1,20 @@
+web-applications:
+  service: "Web Applications"
+  image: "web-app.png"
+  alt: "Development and Design of Web Applications"
+  service-description: "If you want to engage,sell to or increase your customer base, web app is the next big thing that will jumpstart your business. "
+
+
+static-webistes:
+  service: "Static Websites"
+  image: "web-dev.png"
+  alt: "Design and Development  of static websites"
+  service-description: "Want to give precise and insightful information to website visitors for you or your business?, all you need is a static website."
+mobile-applications:
+  service: "Mobile Apps"
+  image: "app-dev.png"
+  alt: "We build mobile applications"
+  service-description: "In this technologial era, mobile applications will do unimaginable boost to your business,get one today."
+
+
+

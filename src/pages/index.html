@@ -8,6 +8,7 @@
           <a class="button success" href="#services">View our services</a>
         </div>
     </div>
+    <a class="scroll align-center hide-for-medium" href="#who-we-are"><img src="{{root}}assets/img/sicon.png" alt="scroll icon" ></a>
 </section>
 
 <section  id="who-we-are">
@@ -23,27 +24,19 @@ new technology and ways of doing things.We can turn your ideas into solution,tod
 <section id="services">
   <h1>Our Services</h1>
   <div class="grid-x grid-margin-x">
+    <div class="cell">
+	  <p class="service-description">We help brands who seek the full scope of a powerful digital presence. Podii in-house</p>
+	  <p>experts create web, social, and content experiences tailored to your needs in the modern technological era.</p>
+    </div>
+    {{#each services}}
     <div class="cell medium-4">
       <div class="service">
-        <img src="{{root}}/assets/img/coding.png" alt="" width="50">
-        <h2>Web development</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <img src="{{root}}assets/img/{{this.image}}" alt="{{this.alt}}" width="128">
+        <h2>{{this.service}}</h2>
+        <p>{{this.service-description}}</p>
       </div>
     </div>
-    <div class="cell medium-4">
-      <div class="service">
-        <img src="{{root}}/assets/img/coding.png" alt="" width="50">
-        <h2>Web development</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </div>
-    </div>
-    <div class="cell medium-4">
-      <div class="service">
-        <img src="{{root}}/assets/img/coding.png" alt="" width="50">
-        <h2>Web development</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </div>
-    </div>
+    {{/each}}
   </div>
 </section>
 <section class="media-content">
