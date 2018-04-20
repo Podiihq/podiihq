@@ -1,21 +1,20 @@
 web-applications:
   service: "Web Applications"
   image: "web-app.png"
-  alt: "We build web applications"
-  service-description: "We build best website applications and this is our expertise. Websites are just static views on the web. Web applications on the other hand allows users to create accounts, get confidential data, store data and do a lot of cool stuff on the web."
+  alt: "Development and Design of Web Applications"
+  service-description: "If you want to engage,sell to or increase your customer base, web app is the next big thing that will jumpstart your business. "
 
 
 static-webistes:
   service: "Static Websites"
   image: "web-dev.png"
-  alt: "We build static websites"
-  service-description: "We design and develop static websites, where these are the sites where the content or rather data displayed, never changes and all that is displayed is same to all visitors of the site."
-
+  alt: "Design and Development  of static websites"
+  service-description: "Want to give precise and insightful information to website visitors for you or your business?, all you need is a static website."
 mobile-applications:
-  service: "Mobile Applications"
+  service: "Mobile Apps"
   image: "app-dev.png"
   alt: "We build mobile applications"
-  service-description: "We build applications for mobile phones and tablets; Android, Apple/iOS, cross-platform, or responsive web. We’ll help you pick the right tech and launch a breakout mobile product."
+  service-description: "In this technologial era, mobile applications will do unimaginable boost to your business,get one today."
 
 
 
