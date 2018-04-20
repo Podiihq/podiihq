@@ -3,11 +3,16 @@
   padding: 2rem 0 2rem;
   color: $white;
 
-  img {
+  .email-image {
     width: 40%;
     height: 30%;
     margin-left: 1rem;
     padding-top: 0.75rem;
+  }
+
+  .logo {
+    width: 3em;
+    padding-bottom: 1em;
   }
 }
 
@@ -50,21 +55,17 @@
 }
 
 .social-media {
-  padding-top: 2rem;
-
-  .fa {
-    padding-left: 0.5px;
-  }
-
   a {
     color: white;
+    &:hover {
+      color: $podii-orange;
+    }
   }
 }
 
 .circle-icon {
-  padding: 2rem;
-  margin-right: 1rem;
-  font-size: 2.5em;
+  padding-right: 2rem;
+  font-size: 2em;
 }
 
 @media screen and (max-width: 63.9375em) {
@@ -77,6 +78,6 @@
   }
 
   .social-media, .footer-title {
-    padding-top: 1rem;
+     padding-top: 1rem;
   }
 }
