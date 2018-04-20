@@ -91,14 +91,31 @@
     }
   }
 }
-.media-content {
-  padding: 0em;
+.progress-content {
+  background-image: linear-gradient(rgba(#ff5e0e, 0.70), rgba(#008575, 0.70)), url(../img/hero-group.jpg);
+  min-height: 20vh;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+  padding: 2em;
 }
-.media-item {
+.progress-item {
   i {
     font-size: 3em;
   }
 }
+
+.hero {
+  h1 {
+    padding: 2rem 5rem 0 5rem;
+  }
+
+  p {
+    padding: 2rem 4rem;
+  }
+}
+
 .quote {
   background-color: #008575;
   padding: 4em;
