@@ -1,5 +1,17 @@
 .team{
-  background-color: #1a435f; 
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(#000000, 0.7), rgba(#000000, 0.7)), url(../img/team/team-background.jpg);
+  
+  .team-wrap {
+    padding-top: 2.5em;
+  margin: 0 auto;
+  width: 80%;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+  }
 
   i {
     font-size: 2em;
@@ -7,7 +19,13 @@
 
   .circular {
     border-radius: 100%;
-    padding: 10px;
+    margin-top: -80px;
+    height: 120px;
+    width: 120px;
+  }
+
+  .callout {
+    border-radius: 15px;
   }
 
   .courier {
@@ -25,8 +43,8 @@
     margin-bottom: 0;
   }
   
-  #boo{
-    padding-bottom: 1em;
+  #foo-bar {
+    padding: 2rem 1rem;
     text-align: center;
   }
 
