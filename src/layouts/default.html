@@ -27,39 +27,56 @@
     <meta name="og:type" content="website">
     <link rel="icon" type="image/x-icon" href="{{root}}assets/img/logo.png">
 
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
   <body>
-      <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
-          <ul class="menu vertical" id="canvasmenu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Community</a></li>
-              <li><a href="">Tech</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Blog</a></li>
-          </ul>
-          <button class="close-button" aria-label="Close menu" type="button" data-close>
-              <span aria-hidden="true">&times;</span>
-          </button>
+
+    <div id="loader"> </div>
+    <div id="page-content" style="display:none;" class="animate-bottom">
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+      <ul class="menu vertical" id="canvasmenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="">Tech</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <button class="close-button" aria-label="Close menu" type="button" data-close>
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+      <div class="title-bar hide-for-medium">
+        <div class="title-bar-left">
+          <button class="menu-icon " type="button" data-toggle="offCanvas"></button>
+        </div>
+        <div class="title-bar-right">
+          <span class="title-bar-title">Podii</span>
+        </div>
       </div>
+      {{> topbar}}
+      {{> body}}
+      {{> footer}}
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN51Nnrvqa8qggdz3aXeybs2jBxMQphUo"></script>
+      <script src="{{root}}assets/js/app.js"></script>
 
-      <div class="off-canvas-content" data-off-canvas-content>
-          <div class="title-bar hide-for-medium">
-              <div class="title-bar-left">
-                  <button class="menu-icon " type="button" data-toggle="offCanvas"></button>
-              </div>
-              <div class="title-bar-right">
-                  <span class="title-bar-title">Podii</span>
-              </div>
-          </div>
-          {{> topbar}}
-          {{> body}}
-          {{> footer}}
-          <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN51Nnrvqa8qggdz3aXeybs2jBxMQphUo"></script>
-    <script src="{{root}}assets/js/app.js"></script>
-
-      </div>
-
-    <script src="{{root}}assets/js/app.js"></script>
+      <!--Start of Tawk.to Script-->
+      <script type="text/javascript">
+       var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+       (function(){
+         var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+         s1.async=true;
+         s1.src='https://embed.tawk.to/5ac4b573d7591465c7092dfd/default';
+         s1.charset='UTF-8';
+         s1.setAttribute('crossorigin','*');
+         s0.parentNode.insertBefore(s1,s0);
+       })();
+      </script>
+      <!--End of Tawk.to Script-->
+    </div>
+    <!-- end of the off canvas -->
+    </div>
   </body>
 </html>
