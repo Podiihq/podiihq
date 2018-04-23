@@ -27,9 +27,12 @@
     <meta name="og:type" content="website">
     <link rel="icon" type="image/x-icon" href="{{root}}assets/img/logo.png">
 
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
   <body>
+    <div id="loader"> </div>
+    <div id="page-content" style="display:none;" class="animate-bottom">
     <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
       <ul class="menu vertical" id="canvasmenu">
         <li><a href="#">Home</a></li>
@@ -72,6 +75,7 @@
       </script>
       <!--End of Tawk.to Script-->
     </div>
-    end of the off canvas
+    <!-- end of the off canvas -->
+    </div>
   </body>
 </html>
