@@ -4,9 +4,7 @@ getty:
   medium: "@gettygertie"
   github: "gettyorawo"
   codewars: "GettyGertie"
-  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus
-          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim
-          neque, volutpat ac tincidunt vitae, semper?"
+  desc: "It's never that serious. Take life as simple as it comes. Do simple, do you."
   name: "Getty Orawo"
 
 sigu:
@@ -15,21 +13,8 @@ sigu:
   medium: "@sigumagwa"
   github: "gettyorawo"
   codewars: "sigu"
-  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus
-          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim
-          neque, volutpat ac tincidunt vitae, semper?"
+  desc: "In my other world, I would be driving a trailer from Indian Ocean to Atlantic Ocean"
   name: "Sigu Magwa"
-
-mussa:
-  image: "mussa.png"
-  twitter: "AmokeMsa"
-  medium: "@musaomondi7437"
-  github: "musaomondi"
-  codewars: "Amoke"
-  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus
-          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim
-          neque, volutpat ac tincidunt vitae, semper?"
-  name: "Mussa Amoke"
 
 lucy:
   image: "lucy.png"
@@ -37,9 +22,7 @@ lucy:
   medium: "@lucymuhonja"
   github: "Lmise"
   codewars: "Lmise"
-  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus
-          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim
-          neque, volutpat ac tincidunt vitae, semper?"
+  desc: "It's not what we do once in a while that shapes our lives. It's what we do consistently."
   name: "Lucy Mise"
 
 kevin:
@@ -48,7 +31,14 @@ kevin:
   medium: "@kevinlinkin"
   github: "champagnepappi"
   codewars: "champagnepappi"
-  desc: " A diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus
-          cras adipiscing enim eu turpis. Ut faucibus pulvinar elementum integer enim
-          neque, volutpat ac tincidunt vitae, semper?"
+  desc: "All generalizations are false, including this one"
   name: "Kevin Ochieng"
+
+krafty:
+  image: "krafty.jpg"
+  twitter: "KraftyCoder"
+  medium: "agtychefortuna"
+  github: "Krafty-Coder"
+  codewars: "Krafty Coder"
+  desc: "I am thee guy, with the tremendous need of awesome people in this world, I came by (0.o)"
+  name: "Malcolm Peter"
