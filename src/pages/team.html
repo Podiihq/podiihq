@@ -1,21 +1,27 @@
 <div class="team">
-<h1 class="courier" align="center">PodiiHQ Team</h1>
-  <div class="grid-x grid-padding-x">
+  <h1>The Podii Team</h1>
+  <p class="description">Our team consists of Techies who are passionate and like-minded. We were brought together by a common interest and love for technology. We love and believe in what we do. Our key values consist of, creativity, integrity and collaboration</p>
+  <div class="grid-x grid-padding-x team-wrap" data-equalizer data-equalize-on="medium">
   {{#each team}}
-  <div class="cell medium-4"  id="boo">
-    <div class="callout secondary">
+  <div class="cell medium-4" id="foo-bar">
+    <div class="callout" data-equalizer-watch>
+      <div>
       <img class="circular" src="{{root}}assets/img/team/{{this.image}}"/><br>
+      </div>
+      <p class="name">
       ~{{this.name}}~
+      </p>
+      <a href="https://www.codewars.com/users/{{this.codewars}}" target="blank">
+          <img class="codewars" alt="codewars score for {{this.name}}" src="https://www.codewars.com/users/{{this.codewars}}/badges/micro"/>
+      </a>
+      <p>{{this.desc}}</p>
       <ul class="menu simple">
         <li><a href="https://twitter.com/{{this.twitter}}" target="blank">  <i class="fa fi-social-twitter " aria-hidden="true"></i> </li></a>
         <li><a href="https://medium.com/{{this.medium}}" target="blank"> <i class="fa fi-social-medium " aria-hidden="true"></i> </li></a>
-        <li> <a href="https://github.com/{{this.github}}" target="blank"> <i class="fa fi-social-github " aria-hidden="true"></i> </li></a>
+        <li><a href="https://github.com/{{this.github}}" target="blank"> <i class="fa fi-social-github " aria-hidden="true"></i> </li></a>
       </ul>
-      <a href="https://www.codewars.com/users/{{this.codewars}}" target="blank">
-      <img alt="" src="https://www.codewars.com/users/{{this.codewars}}/badges/micro"/>
-      </a>
-      <p>{{this.desc}}</p>
     </div>
   </div>
   {{/each}}
+  </div>
 </div>
