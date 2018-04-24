@@ -1,6 +1,5 @@
 .team{
-  background-attachment: fixed;
-  background-image: linear-gradient(black, white);
+ 
   
   .team-wrap {
     padding-top: 2.5em;
@@ -10,7 +9,8 @@
 
   h1 {
     text-align: center;
-    color: white;
+    color: $podii-blue;
+    padding-top: 3rem;
   }
 
   i {
@@ -25,14 +25,19 @@
   .codewars {
     padding: 1em;
   }
-
+.description{
+  text-align: center;
+  padding-bottom: 3rem;
+  width: 80%;
+  margin: 0 auto;
+}
   .circular {
     border-radius: 100%;
     margin-top: -80px;
     height: 120px;
     width: 120px;
     padding: 0;
-    box-shadow: 3px 5px 10px gray;
+    // box-shadow: 3px 5px 10px gray;
   }
 
   .callout {
@@ -40,8 +45,7 @@
   }
 
   .courier {
-    font-family: "Courier New", Courier, monospace;
-    color: #c5b9b9;
+    color: white;
   }
 
   .menu.simple {
@@ -49,9 +53,7 @@
   }
 
   p {
-    font-family: "Comic Sans MS";
-    color: grey;
-    margin-bottom: 0;
+       margin-bottom: 0;
   }
   
   #foo-bar {
