@@ -1,5 +1,4 @@
 export default function initialiseMap() {
-  console.log('here');
   google.maps.event.addDomListener(window, 'load', init);
 
   function init() {
