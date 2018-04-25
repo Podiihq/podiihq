@@ -8,7 +8,7 @@ getty:
   name: "Getty Orawo"
 
 sigu:
-  image: "sigu.png"
+  image: "sigu.jpeg"
   twitter: "s_igu"
   medium: "@sigumagwa"
   github: "sigu"
@@ -35,7 +35,7 @@ kevin:
   name: "Kevin Ochieng"
 
 krafty:
-  image: "krafty.jpg"
+  image: "krafty.png"
   twitter: "KraftyCoder"
   medium: "agtychefortuna"
   github: "Krafty-Coder"
