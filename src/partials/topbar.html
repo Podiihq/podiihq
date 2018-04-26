@@ -1,12 +1,13 @@
 <div class="top-bar show-for-medium" id='podiihq-menu'>
   <div class="top-bar-left">
     <a href="/">
-      <img alt="" src="{{root}}assets/img/brand.png" height="10px"/>
+      <img src="{{root}}assets/img/brand.png" alt="podii logo"/>
     </a>
   </div>
   <div class="top-bar-right">
     <ul class="menu">
-      <li><a href="#">Home</a></li>
+      <li class="{{#ifpage 'index'}}active{{/ifpage}}"><a href="/">Home</a> </li>
+      <li class="{{#ifpage 'team'}}active{{/ifpage}}"><a href="team.html">Team</a></li>
       <li><a href="https://medium.com/podiihq" target="blank">Blog</a></li>
     </ul>
   </div>
