@@ -1,0 +1,54 @@
+// tech page styling
+
+#tech-section {
+  height: 100vh;
+  background-image: linear-gradient(rgba(gray, 0.30), rgba(gray, 0.30)), url(../img/tech/krafty-tech.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  .technologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .random {
+      padding-bottom: 8em;
+      h1 {
+        font-size: 2em;
+        }
+      .button {
+        border-radius: 5px;
+        font-size: 1em;
+        background: #00ff00;
+        color: black;
+      }
+    }
+  }
+}
+
+#tech-attributes {
+  h1 {
+    text-align: center;
+    padding-top: 0.6em;
+  }
+  .wrapper {
+     padding: 2em 3em;
+  .techie {
+     padding: 0 0.5em;
+     .techh {
+       img {
+         border: 3px solid $podii-orange;
+         border-radius: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 40em) {
+  #tech-section {
+    background-image: linear-gradient(rgba($podii-blue, 0.20), rgba(#000, 0.20)), url(../img/mobile_bg.jpg);
+    background-size: cover;
+  }
+}
