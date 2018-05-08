@@ -4,8 +4,23 @@
     padding: 5px 0 5px;
 }
 #offCanvas {
-    background: $canvas-background;
-    a, .close-button {
+    background: $podii-blue;
+    a {
         color: $white;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .close-button {
+        font-size: 3em;
+        color: $white;
+    }
+    ul {
+        width: 100%;
+
+        li {
+            padding: 1em 0;
+            width: 100%;
+        }
     }
 }
