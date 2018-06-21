@@ -189,3 +189,22 @@
   padding: 1rem 0;
   filter: grayscale(99%);
 }
+#join-us {
+  .join {
+    text-align: center;
+    background-color: $creativity-color;
+    height: 20vh;
+    padding: 2rem;
+
+    h3 {
+      color: white;
+    }
+  }
+  .button {
+    border-radius: 3px;
+    font-size: 0.7em;
+    font-family: Ubuntu;
+    color: black;
+    background: #FFA500;
+  }
+}
