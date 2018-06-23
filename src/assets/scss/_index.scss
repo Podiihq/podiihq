@@ -1,12 +1,12 @@
 #intro {
-  height: 100vh;
+  height: 95vh;
   background-image: url(../img/bg.jpg);
   background-size: cover;
   .phrase-section {
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 100%;
+    height: 80%;
     .catch-phrase {
       h1, p {
         font-family: Ubuntu;
@@ -189,22 +189,20 @@
   padding: 1rem 0;
   filter: grayscale(99%);
 }
-#join-us {
-  .join {
-    text-align: center;
-    background-color: $creativity-color;
-    height: 20vh;
-    padding: 2rem;
-
-    h3 {
-      color: white;
-    }
+.join {
+  padding: 1em;
+  text-align: center;
+  background-color: $creativity-color;
+  color: white;
+  p {
+    margin:0;
   }
   .button {
     border-radius: 3px;
     font-size: 0.7em;
-    font-family: Ubuntu;
     color: black;
-    background: #FFA500;
+    background: yellow;
+    margin-left: 1em;
+    margin-top: 1em;
   }
 }
