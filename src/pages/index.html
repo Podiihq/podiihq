@@ -1,48 +1,45 @@
 ---
 pagetitle: Turn ideas into reality | Podii
+metatag: Podii is a group of technology leaders who are dedicated at improving brands get maximum benefits of having their enterprises online.
 ---
 <section id="intro">
-  <div class="phrase-section">
-    <div class="catch-phrase medium-offset-7 ">
-      <h1>We turn Ideas into Reality</h1>
-      <p><span class="creativity">Creativity</span> &#8226;
-        <span class="integrity">Integrity</span> &#8226;
-        <span class="collaboration">Collaboration</span></p>
-      <a class="button success" href="#services">View our services</a>
+    <div class="phrase-section">
+        <div class="catch-phrase medium-offset-7 ">
+            <h1>We turn Ideas into Reality</h1>
+            <p><span class="creativity">Creativity</span> &#8226;
+              <span class="integrity">Integrity</span> &#8226;
+              <span class="collaboration">Collaboration</span></p>
+          <a class="button success" href="#services">View our services</a>
+        </div>
     </div>
-  </div>
-  <a class="scroll align-center hide-for-medium" href="#who-we-are"><img src="{{root}}assets/img/sicon.png" alt="scroll to next section icon" ></a>
-  <div class="join">
-    <p> Learn with the best <a class="button" href="https://academy.podiihq.com">Join Academy</a></p>
-  </div>
+    <a class="scroll align-center hide-for-medium" href="#who-we-are"><img src="{{root}}assets/img/sicon.png" alt="scroll to next section icon" ></a>
 </section>
 
 <!-- to enable the loader to work well, include these background images and hide -->
 <img alt="desktop of a typical website development workspace" style="display:none" src="{{root}}assets/img/bg.jpg"/>
 <img alt="podii team members" style="display:none" src="{{root}}assets/img/hero-group.jpg"/>
 
-
 <section  id="who-we-are">
   <h1>Who we are</h1>
   <p>Passionate,goal-oriented and open-minded web developers who specialize in development of mobile and web applications while
     making data-driven decision and putting our clients' needs at the fore-front. Through application of best practices we ascertain the
     development of crafted software solutions that meets if not exceeding clients expectations and needs.
-    We believe in constructive, honest and actionable feedback always aiming to improve ourselves.</p>
+  We believe in constructive, honest and actionable feedback always aiming to improve ourselves.</p>
   <p>We turn your ideas into reality!</p>
-  <a class="button primary" href="team.html">View Our Team</a>
+<a class="button primary" href="team.html">View Our Team</a>
 </section>
 
 <section id="services">
   <h1>Our Services</h1>
   <div class="grid-x grid-margin-x">
     <div class="cell">
-      <p class="service-description">We help brands who seek the full scope of a powerful digital presence. Podii in-house</p>
-      <p>experts create web, social, and content experiences tailored to your needs in the modern technological era.</p>
+	  <p class="service-description">We help brands who seek the full scope of a powerful digital presence. Podii in-house</p>
+	  <p>experts create web, social, and content experiences tailored to your needs in the modern technological era.</p>
     </div>
     {{#each services}}
     <div class="cell medium-4">
       <div class="service">
-        <img src="{{root}}assets/img/{{this.image}}" alt="{{this.alt}}" width="128">
+          <img src="{{root}}assets/img/{{this.image}}" alt="{{this.alt}}" width="128">
         <h2>{{this.service}}</h2>
         <p>{{this.service-description}}</p>
       </div>
@@ -52,7 +49,7 @@ pagetitle: Turn ideas into reality | Podii
 </section>
 <section class="progress-content hero">
   <div class="grid-x grid-margin-x">
-    {{#each progress}}
+  {{#each progress}}
     <div class="cell medium-3 mobile-view">
       <div class="progress-item">
         <i class="{{this.icon}}" aria-hidden="true"></i>
