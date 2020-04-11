@@ -1,12 +1,10 @@
 #intro {
-  height: 95vh;
   background-image: url(../img/bg.jpg);
   background-size: cover;
   .phrase-section {
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 88%;
     .catch-phrase {
       h1 {
         font-weight: 500;
@@ -27,7 +25,7 @@
           color: $collaboration-color;
         }
       }
-      .button {
+      .services-button {
         border-radius: 3px;
         font-size: 1em;
         color: black;
@@ -48,69 +46,77 @@
     }
   }
   @media screen and (max-width: 40em) {
-    background-image: linear-gradient(rgba(0,0,0,0.80), rgba(0, 0, 0, 0.80)), url(../img/bg.jpg);
-    text-align: center;
+    background-color: $podii-blue;
+    background-image: url(../img/particle.png), linear-gradient($podii-blue, lighten($podii-blue, 8%));
+    background-size: cover;
     color: white;
-    .phrase-section {
-      height: 100%;
-      h1 {
-        font-size: 1.8em;
-      }
-      p {
-        .collaboration {
-          background: white;
-        }
-
-      }
-      .button {
-        font-weight: bold;
-        color: black;
-        background: yellow;
-      }
-
+    padding: 1em;
+    padding-top: 6em;
+    p {
+      padding-top: 1em;
+      padding-bottom: 1em;
     }
-  }
-}
-#who-we-are {
-  text-align: center;
-  padding: 2rem 3rem ;
-  a {
-    background: $podii-blue;
+    img {
+      max-height: 35vh;
+      margin-top: -5em;
+      opacity: 0.3;
+    }
+    .float-right {
+      text-align: right;
+    }
+    .phrase-section {
+      h1 {
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
   }
 }
 
 #services {
-  text-align: center;
-  padding: 2rem;
   background-color: #e6e6e6;
+  padding: 3em;
+  text-align: center;
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: $podii-orange;
+  }
+  p{
+    text-align: justify;
+    &:first-of-type {
+      text-align: left;
+    }
+  }
   .service-description {
     margin: 0;
   }
   .service {
-    text-align: center;
-    padding: 2rem;
     background-color: #e6e6e6;
     padding-bottom: 2em;
-    h1 {
-      font-size: 1.5em;
-    }
     h2 {
       padding-bottom: 0.2em;
+      color: $podii-blue;
+    }
+    .fi {
+      font-size: 5em;
+      color: #bacbdd;
     }
   }
 }
 
 .progress-content {
-  background-image: linear-gradient(rgba(#ff5e0e, 0.70), rgba(#008575, 0.70)), url(../img/hero-group.jpg);
   min-height: 20vh;
-  background-size: cover;
-  background-attachment: fixed;
   text-align: center;
-  color: white;
   padding: 2em;
+  img {
+    height: 100px;
+    padding-bottom: 2em;
+  }
 
   h2 {
-    font-size: 1.0625rem
+    font-size: 1.4rem
   }
 }
 .progress-item {
