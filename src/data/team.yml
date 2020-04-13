@@ -16,14 +16,22 @@ sigu:
   desc: "In my other world, I would be driving a trailer from Indian Ocean to Atlantic Ocean"
   name: "Sigu Magwa"
 
-lucy:
-  image: "lucy.png"
-  twitter: "lue_mise"
-  medium: "@lucymuhonja"
-  github: "Lmise"
-  codewars: "Lmise"
-  desc: "It's not what we do once in a while that shapes our lives. It's what we do consistently."
-  name: "Lucy Mise"
+linda:
+  image: "linda.jpg"
+  twitter: "KadzLyn"
+  medium: "@achielinda44"
+  github: "LindaKadz"
+  codewars: "LindaKadz"
+  name: "Linda Achieng"
+
+pollet:
+  image: "pollet.jpg"
+  twitter: "P_Obuya"
+  medium: "@75pollet"
+  github: "75pollet"
+  codewars: "75pollet"
+  name: "Pollet Obuya"
+
 
 kevin:
   image: "kevin.png"
@@ -41,4 +49,4 @@ krafty:
   github: "Krafty-Coder"
   codewars: "KraftyCoder"
   desc: "I am thee guy, with the tremendous need of awesome people in this world, I came by (0.o)"
-  name: "Malcolm Peter"
+  name: "Malcolm Peter (RIP) "

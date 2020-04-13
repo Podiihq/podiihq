@@ -1,116 +1,155 @@
 #intro {
-  height: 95vh;
-  background-image: url(../img/bg.jpg);
+  background-color: $podii-blue;
+  background-image: url(../img/particle.png), linear-gradient($podii-blue, lighten($podii-blue, 8%));
   background-size: cover;
-  .phrase-section {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    height: 88%;
-    .catch-phrase {
-      h1 {
-        font-weight: 500;
-      }
-      p {
-        font-size: 1.2em;
-        margin-bottom: 1.7em;
-        .creativity, .integrity, .collaboration {
-          font-weight: bold;
-        }
-        .creativity {
-          color: $creativity-color;
-        }
-        .integrity {
-          color: $podii-orange;
-        }
-        .collaboration {
-          color: $collaboration-color;
-        }
-      }
-      .button {
-        border-radius: 3px;
-        font-size: 1em;
-        color: black;
-        background: yellow;
-      }
-    }
+  background-attachment: fixed;
+  color: white;
+  padding: 1em;
+  padding-top: 6em;
+  min-height: 70vh;
+  position: relative;
+  z-index: 10;
+  p {
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
-  .scroll {
-    display: flex;
-    margin-top: -8em;
-    &:hover {
-      -webkit-filter: contrast(50%);
-      filter: contrast(50%);
-    }
-    img {
-      width: 3em;
-      height: 3em;
-    }
+  img {
+    height: 35vh;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
   }
-  @media screen and (max-width: 40em) {
-    background-image: linear-gradient(rgba(0,0,0,0.80), rgba(0, 0, 0, 0.80)), url(../img/bg.jpg);
-    text-align: center;
+  .button {
+    border-radius: 3px;
+    font-size: 1em;
+    margin-left: 1em;
+    max-width: 50%;
+  }
+  .hollow {
     color: white;
+    border-color: white;
+    border-width: 2px;
+    font-weight: bold;
+  }
+  .services-button {
+    background: yellow;
+    color: black;
+  }
+  .vertical-centered {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .phrase-section {
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+      padding-left: 0.5em;
+    }
+    h2 {
+      padding: 1em;
+    }
+  }
+  /* medium only*/
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .phrase-section {
-      height: 100%;
-      h1 {
-        font-size: 1.8em;
-      }
-      p {
-        .collaboration {
-          background: white;
+      .catch-phrase {
+        h1 {
+          font-weight: 700;
+          text-align: left;
+          font-size: 3em;
+          padding-left: 0;
         }
-
+        h2 {
+          padding-left: 0;
+          padding-top: 1em;
+          font-size: 1.4em;
+        }
       }
-      .button {
-        font-weight: bold;
-        color: black;
-        background: yellow;
+    }
+    .button {
+      &:first-of-type {
+        margin-left: 0;
       }
+    }
+  }
+    /* large and above */
+    @media screen and (min-width: 64em) {
+      padding-left: 10vw;
+      img {
+        height: 55vh;
+        opacity: 0.6;
+      }
+    }
+}
 
+
+#who-we-are{
+  background-color: #f8f8f8;
+  padding: 1em;
+  padding-top: 2em;
+  h1 {
+    color: $podii-orange;
+    font-weight: bold;
+  }
+  p {
+    padding-right: 10%;
+  }
+  @media screen and (min-width: 64em) {
+    padding-left: 10vw;
+    p {
+      padding-right: 20vw;
     }
   }
 }
-#who-we-are {
-  text-align: center;
-  padding: 2rem 3rem ;
-  a {
-    background: $podii-blue;
-  }
-}
+
 
 #services {
-  text-align: center;
-  padding: 2rem;
   background-color: #e6e6e6;
+  padding: 3em;
+  text-align: center;
+  clear: both;
+  h1 {
+    font-weight: bold;
+    color: $podii-orange;
+  }
+  p{
+    text-align: justify;
+    &:first-of-type {
+      text-align: left;
+    }
+  }
   .service-description {
     margin: 0;
   }
   .service {
-    text-align: center;
-    padding: 2rem;
     background-color: #e6e6e6;
     padding-bottom: 2em;
-    h1 {
-      font-size: 1.5em;
-    }
     h2 {
       padding-bottom: 0.2em;
+      color: $podii-blue;
+    }
+    .fi {
+      font-size: 5em;
+      color: #bacbdd;
     }
   }
 }
 
 .progress-content {
-  background-image: linear-gradient(rgba(#ff5e0e, 0.70), rgba(#008575, 0.70)), url(../img/hero-group.jpg);
   min-height: 20vh;
-  background-size: cover;
-  background-attachment: fixed;
   text-align: center;
-  color: white;
   padding: 2em;
+  img {
+    height: 100px;
+    padding-bottom: 2em;
+  }
 
   h2 {
-    font-size: 1.0625rem
+    font-size: 1.4rem
   }
 }
 .progress-item {

@@ -1,5 +1,6 @@
 .top-bar {
-  height: 3.2em;
+  height: 5em;
+  position: relative;
  .menu .active > a {
    background: $topbar-background;
    color: #fefefe;
@@ -12,5 +13,11 @@
    color: white;
    border-bottom: 0.25em solid $podii-orange;
   }
+ }
+ .brand-logo {
+   max-height: 5em;
+   z-index: 100;
+   top: 1em;
+   position: absolute;
  }
 }

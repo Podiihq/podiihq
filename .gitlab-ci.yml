@@ -1,0 +1,13 @@
+image: node:8.16.2
+
+pages:
+  script:
+  - npm install
+  - npm run build
+
+  artifacts:
+    paths:
+    - public
+
+  only:
+  - develop

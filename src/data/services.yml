@@ -1,20 +1,31 @@
-web-applications:
-  service: "Web Applications"
-  image: "web-app.png"
-  alt: "Development and Design of Web Applications"
-  service-description: "If you want to engage,sell to or increase your customer base, web app is the next big thing that will jumpstart your business. "
+realtimeapps:
+  service: "Realtime Applications"
+  icon: "graph-bar"
+  alt: "Development and Design of real time Applications"
+  service-description: "We have built applications that allow updates to be shown immediately to users of the application. This has proven important in updating information to a user in real time e.g when an item just ran out of stock while they are on the page"
 
 
-static-webistes:
-  service: "Static Websites"
-  image: "web-dev.png"
-  alt: "Design and Development  of static websites"
-  service-description: "Want to give precise and insightful information to website visitors for you or your business?, all you need is a static website."
-mobile-applications:
-  service: "Mobile Apps"
-  image: "app-dev.png"
-  alt: "We build mobile applications"
-  service-description: "In this technologial era, mobile applications will do unimaginable boost to your business,get one today."
+micro-payments:
+  service: "Micro Payments"
+  alt: "building micropayment appllications using mpesa airtel"
+  icon: "credit-card"
+  service-description: "We have in the past and currently still working on a micropayment system that allows users to request products, on attaining a particular percentage of the whole amount they are considered as qualified hence, they can receive the products and continue paying in installments"
 
+mobile-payments:
+  service: "Mobile Payments"
+  icon: "dollar-bill"
+  alt: "application to send money via mpesa, receive money too."
+  service-description: "We also make it possible to send out payments to users from within the application. This for example can be  used to pay casual workers according to the number of days they have worked. We do the calculations and automatically prepare a payment slip for every worker. The administrator can make some changes if need be then pay the workers straight to their mobile phones.
+"
 
+poor-connectivity:
+  service: "Poor internet"
+  icon: "mobile-signal"
+  alt: "Applications that work with poor internet connection"
+  service-description: "We have found a way of working with this unreliability by creating applications that do not degrade user experience due to unstable internet connection. This is important because it will save you the cost of losing that customer. This will eliminate dependence on a network connection with yet a reliable user experience since customers will still be able to make a purchase even without internet access."
 
+offline-applications:
+  icon: "unlink"
+  service: "Offline applications"
+  alt: "Applications that work with poor internet connection"
+  service-description: "We have worked on applications that allows users to access services even in the complete lack of internet. Users are able to access the essential parts of the services while offline"

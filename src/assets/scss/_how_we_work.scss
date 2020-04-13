@@ -1,0 +1,71 @@
+#how-we-work {
+
+  margin-top: 3em;
+  padding: 1em;
+  h1 {
+    color: $podii-orange;
+    font-weight: bold;
+    text-align: center;
+  }
+  h2 {
+    font-weight: bold;
+    text-align: center;
+    &:first-of-type {
+      padding-top: 3em;
+    }
+  }
+  img {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  hr {
+    margin: 3em;
+    border-color: white;
+  }
+  /* Medium only */
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    max-width: 80%;
+    margin: 0 auto ;
+    h2 {
+      font-weight: normal;
+      text-align: left;
+      &:first-of-type {
+        padding-top: 2em;
+      }
+    }
+  }
+  /* Medium and up */
+  @media screen and (min-width: 40em) {
+    img {
+      display: inline;
+      min-width: 25%;
+    }
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+    }
+  }
+  @media screen and (min-width: 64em) {
+    max-width: 80%;
+    margin-left: auto ;
+    margin-right: auto;
+    img {
+      max-height: 25vh;
+    }
+    .work-explained {
+      max-width: 800px;
+      margin-left: auto ;
+      margin-right: auto;
+    }
+    .right-header {
+      text-align: right;
+    }
+    .left-header {
+      text-align: left;
+    }
+  }
+}
