@@ -19,7 +19,7 @@ mobile-payments:
 "
 
 poor-connectivity:
-  service: "Good performance with a poor internet connection"
+  service: "Poor internet"
   icon: "mobile-signal"
   alt: "Applications that work with poor internet connection"
   service-description: "We have found a way of working with this unreliability by creating applications that do not degrade user experience due to unstable internet connection. This is important because it will save you the cost of losing that customer. This will eliminate dependence on a network connection with yet a reliable user experience since customers will still be able to make a purchase even without internet access."

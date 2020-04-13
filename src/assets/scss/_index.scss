@@ -1,85 +1,118 @@
 #intro {
-  background-image: url(../img/bg.jpg);
+  background-color: $podii-blue;
+  background-image: url(../img/particle.png), linear-gradient($podii-blue, lighten($podii-blue, 8%));
   background-size: cover;
-  .phrase-section {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    .catch-phrase {
-      h1 {
-        font-weight: 500;
-      }
-      p {
-        font-size: 1.2em;
-        margin-bottom: 1.7em;
-        .creativity, .integrity, .collaboration {
-          font-weight: bold;
-        }
-        .creativity {
-          color: $creativity-color;
-        }
-        .integrity {
-          color: $podii-orange;
-        }
-        .collaboration {
-          color: $collaboration-color;
-        }
-      }
-      .services-button {
-        border-radius: 3px;
-        font-size: 1em;
-        color: black;
-        background: yellow;
-      }
-    }
+  background-attachment: fixed;
+  color: white;
+  padding: 1em;
+  padding-top: 6em;
+  min-height: 70vh;
+  position: relative;
+  z-index: 10;
+  p {
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
-  .scroll {
-    display: flex;
-    margin-top: -8em;
-    &:hover {
-      -webkit-filter: contrast(50%);
-      filter: contrast(50%);
-    }
-    img {
-      width: 3em;
-      height: 3em;
-    }
+  img {
+    height: 35vh;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
   }
-  @media screen and (max-width: 40em) {
-    background-color: $podii-blue;
-    background-image: url(../img/particle.png), linear-gradient($podii-blue, lighten($podii-blue, 8%));
-    background-size: cover;
+  .button {
+    border-radius: 3px;
+    font-size: 1em;
+    margin-left: 1em;
+    max-width: 50%;
+  }
+  .hollow {
     color: white;
-    padding: 1em;
-    padding-top: 6em;
-    p {
-      padding-top: 1em;
-      padding-bottom: 1em;
+    border-color: white;
+    border-width: 2px;
+    font-weight: bold;
+  }
+  .services-button {
+    background: yellow;
+    color: black;
+  }
+  .vertical-centered {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .phrase-section {
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+      padding-left: 0.5em;
     }
-    img {
-      max-height: 35vh;
-      margin-top: -5em;
-      opacity: 0.3;
+    h2 {
+      padding: 1em;
     }
-    .float-right {
-      text-align: right;
-    }
+  }
+  /* medium only*/
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .phrase-section {
-      h1 {
-        font-size: 2em;
-        font-weight: bold;
-        text-align: center;
+      .catch-phrase {
+        h1 {
+          font-weight: 700;
+          text-align: left;
+          font-size: 3em;
+          padding-left: 0;
+        }
+        h2 {
+          padding-left: 0;
+          padding-top: 1em;
+          font-size: 1.4em;
+        }
       }
+    }
+    .button {
+      &:first-of-type {
+        margin-left: 0;
+      }
+    }
+  }
+    /* large and above */
+    @media screen and (min-width: 64em) {
+      padding-left: 10vw;
+      img {
+        height: 55vh;
+        opacity: 0.6;
+      }
+    }
+}
+
+
+#who-we-are{
+  background-color: #f8f8f8;
+  padding: 1em;
+  padding-top: 2em;
+  h1 {
+    color: $podii-orange;
+    font-weight: bold;
+  }
+  p {
+    padding-right: 10%;
+  }
+  @media screen and (min-width: 64em) {
+    padding-left: 10vw;
+    p {
+      padding-right: 20vw;
     }
   }
 }
+
 
 #services {
   background-color: #e6e6e6;
   padding: 3em;
   text-align: center;
+  clear: both;
   h1 {
-    font-size: 2em;
     font-weight: bold;
     color: $podii-orange;
   }
